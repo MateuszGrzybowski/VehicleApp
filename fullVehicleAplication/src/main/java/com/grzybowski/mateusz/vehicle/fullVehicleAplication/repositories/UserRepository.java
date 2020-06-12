@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.repositories;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.User;
@@ -10,3 +11,4 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	User findByUsername(String username);
 	
 }
+*/

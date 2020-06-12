@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.controllers;
 
 import org.springframework.stereotype.Controller;
@@ -10,4 +11,4 @@ public class InvoiceController {
 	public String goHome(){
 		return "index";
 	}
-}
+}*/

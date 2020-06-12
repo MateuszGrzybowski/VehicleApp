@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.repositories;
 
 
@@ -9,3 +10,4 @@ import org.springframework.stereotype.Repository;
 public interface JobTitleRepository extends JpaRepository<JobTitle, Integer> {
 
 }
+*/

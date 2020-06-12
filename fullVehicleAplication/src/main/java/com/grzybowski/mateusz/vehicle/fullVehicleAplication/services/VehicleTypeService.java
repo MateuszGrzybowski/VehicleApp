@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.services;
 
 import java.util.List;
@@ -9,13 +10,14 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class VehicleTypeService {
-	
+
 	@Autowired
 	private VehicleTypeRepository vehicleTypeRepository;
-	
+
 	public List<VehicleType> findAll(){
 		return vehicleTypeRepository.findAll();
-	}	
+	}
 
 
 }
+*/

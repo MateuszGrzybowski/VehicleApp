@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.repositories;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.VehicleModel;
@@ -9,3 +10,4 @@ import org.springframework.stereotype.Repository;
 public interface VehicleModelRepository extends JpaRepository<VehicleModel, Integer> {
 
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.services;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.InvoiceStatus;
@@ -20,3 +21,4 @@ public class InvoiceStatusService {
 
 
 }
+*/

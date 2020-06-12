@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.services;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.Vehicle;
@@ -19,3 +20,4 @@ public class VehicleService {
 
 
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.services;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.JobTitle;
@@ -18,3 +19,4 @@ public class JobTitleService {
 	}
 }
 
+*/
