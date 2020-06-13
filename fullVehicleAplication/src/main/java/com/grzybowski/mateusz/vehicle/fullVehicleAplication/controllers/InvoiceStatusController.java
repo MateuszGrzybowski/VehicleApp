@@ -1,14 +1,13 @@
-/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.controllers;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+        import org.springframework.stereotype.Controller;
+        import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class InvoiceStatusController {
 
-	@GetMapping("/index")
-	public String goHome(){
-		return "index";
-	}
-}*/
+    @GetMapping("/invoiceStatuses")
+    public String goHome(){
+        return "invoiceStatus";
+    }
+}
