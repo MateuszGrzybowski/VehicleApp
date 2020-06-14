@@ -5,10 +5,10 @@ import com.grzybowski.mateusz.vehicle.fullVehicleAplication.services.CountryServ
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class CountryController {
@@ -29,4 +29,21 @@ public class CountryController {
         return "redirect:/countries";
     }
 
+    @RequestMapping("countries/findById")
+    @ResponseBody
+    public Optional<Country> findById(Integer id) {
+        return countryService.findById(id);
+    }
+
+    @RequestMapping(value="countries/update", method = {RequestMethod.POST, RequestMethod.GET})
+    public String update(Country country) {
+        countryService.save(country);
+        return "redirect:/countries";
+    }
+
+    @RequestMapping(value="countries/delete", method = {RequestMethod.DELETE, RequestMethod.GET})
+    public String delete(Integer id) {
+        countryService.delete(id);
+        return "redirect:/countries";
+    }
 }
