@@ -29,7 +29,6 @@ public class LocationController {
 		model.addAttribute("locations", locationService.findAll());
 		model.addAttribute("countries", countryService.findAll());
 		model.addAttribute("states", stateService.findAll());
-
 		return "location";
 	}
 
