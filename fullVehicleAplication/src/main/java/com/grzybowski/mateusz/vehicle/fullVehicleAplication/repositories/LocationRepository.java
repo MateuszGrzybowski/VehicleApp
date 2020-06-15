@@ -1,4 +1,3 @@
-/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.repositories;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.Location;
@@ -10,4 +9,3 @@ import org.springframework.stereotype.Repository;
 public interface LocationRepository extends CrudRepository<Location, Integer> {
 
 }
-*/
