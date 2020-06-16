@@ -1,6 +1,7 @@
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.VehicleType;
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.repositories.VehicleTypeRepository;
@@ -17,5 +18,16 @@ public class VehicleTypeService {
 		return vehicleTypeRepository.findAll();
 	}
 
+	public Optional<VehicleType> findById(int id) {
+		return vehicleTypeRepository.findById(id);
+	}
+
+	public void delete(int id) {
+		vehicleTypeRepository.deleteById(id);
+	}
+
+	public void save(VehicleType vehicleType) {
+		vehicleTypeRepository.save(vehicleType);
+	}
 
 }
