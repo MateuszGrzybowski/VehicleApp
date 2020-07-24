@@ -16,7 +16,6 @@ public class StateController {
 	@Autowired private StateService stateService;
 	@Autowired private CountryService countryService;
 
-	//Get All States
 	@GetMapping("states")
 	public String findAll(Model model){
 		model.addAttribute("states", stateService.findAll());
@@ -31,7 +30,6 @@ public class StateController {
 		return stateService.findById(id);
 	}
 
-	//Add State
 	@PostMapping(value="states/addNew")
 	public String addNew(State state) {
 		stateService.save(state);
