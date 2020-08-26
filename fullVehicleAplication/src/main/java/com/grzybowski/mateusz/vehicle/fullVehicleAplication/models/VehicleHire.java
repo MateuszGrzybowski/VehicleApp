@@ -37,7 +37,7 @@ public class VehicleHire {
 	
 	private String timeOut;
 	
-	@DateTimeFormat(pattern = "yyyy-MM-dd")	
+	@DateTimeFormat (pattern = "yyyy-MM-dd")
 	private Date dateIn;
 	
 	private String timeIn;
