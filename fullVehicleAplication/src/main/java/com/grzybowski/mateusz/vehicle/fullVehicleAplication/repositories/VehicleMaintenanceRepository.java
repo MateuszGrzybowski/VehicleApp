@@ -1,4 +1,3 @@
-/*
 package com.grzybowski.mateusz.vehicle.fullVehicleAplication.repositories;
 
 import com.grzybowski.mateusz.vehicle.fullVehicleAplication.models.VehicleMaintenance;
@@ -12,4 +11,3 @@ public interface VehicleMaintenanceRepository extends JpaRepository<VehicleMaint
 	
 
 }
-*/
