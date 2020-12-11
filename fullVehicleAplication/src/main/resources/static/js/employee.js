@@ -54,21 +54,7 @@ $('document').ready(function() {
 		$('#deleteModal #delRef').attr('href', href);
 		$('#deleteModal').modal();		
 	});	
-	
-	$('.table #photoButton').on('click',function(event) {
-		event.preventDefault();
-		var href = $(this).attr('href');
-		$('#photoModal #employeePhoto').attr('src', href);
-		$('#photoModal').modal();		
-	});	
-	
-	$('#uploadButton').on('click',function(event){
-		var href = $(this).attr('href');
-		
-		$.post(href, function(data, status){
-			console.log(data);
-		});
-	});	
+
 });
 
 
