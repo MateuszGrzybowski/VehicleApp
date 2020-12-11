@@ -8,6 +8,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface VehicleMaintenanceRepository extends JpaRepository<VehicleMaintenance, Integer>{
 	
-	
-
+    
 }
