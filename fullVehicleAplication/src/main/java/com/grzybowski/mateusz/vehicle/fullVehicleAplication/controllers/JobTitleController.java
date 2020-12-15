@@ -18,7 +18,6 @@ public class JobTitleController {
 
 	@Autowired private JobTitleService jobTitleService;
 
-	//Get All JobTitles
 	@GetMapping("jobTitles")
 	public String findAll(Model model){
 		model.addAttribute("jobTitles", jobTitleService.findAll());
@@ -32,7 +31,6 @@ public class JobTitleController {
 		return jobTitleService.findById(id);
 	}
 
-	//Add JobTitle
 	@PostMapping(value="jobTitles/addNew")
 	public String addNew(JobTitle jobTitle) {
 		jobTitleService.save(jobTitle);

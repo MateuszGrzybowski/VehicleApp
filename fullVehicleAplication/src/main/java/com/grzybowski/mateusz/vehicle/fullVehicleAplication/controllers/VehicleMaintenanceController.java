@@ -40,7 +40,6 @@ public class VehicleMaintenanceController {
 		return vehicleMaintenanceService.findById(id);
 	}
 
-	//Add VehicleMaintenance
 	@PostMapping(value="vehicleMaintenances/addNew")
 	public String addNew(VehicleMaintenance vehicleMaintenance) {
 		vehicleMaintenanceService.save(vehicleMaintenance);

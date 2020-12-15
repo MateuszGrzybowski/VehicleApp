@@ -18,7 +18,7 @@ public class CommonObject extends Auditable<String>{
 	private String description;
 	private String details;
 	
-	public CommonObject() {
+	public CommonObject()  {
 		
 	}
 	
