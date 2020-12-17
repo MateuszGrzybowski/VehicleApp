@@ -14,9 +14,9 @@ public class AppController {
     public String login(){
         return "login";
     }
-    @GetMapping("/logout")
-    public String logout(){
-        return "logout";
+    @GetMapping("/register")
+    public String register(){
+        return "register";
     }
 
 }
