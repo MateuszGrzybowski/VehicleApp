@@ -24,6 +24,7 @@ public class UserController {
 	public String findAll(Model model){
 		return "user";
 	}
+/*
 
 	@RequestMapping("users/findById")
 	@ResponseBody
@@ -32,6 +33,7 @@ public class UserController {
 		return userService.findById(id);
 	}
 
+*/
 
 
 	@PostMapping(value="users/addNew")
@@ -43,6 +45,7 @@ public class UserController {
 				"You successfully registered! You can now login");
 		return redirectView;
 	}
+	/*
 	@RequestMapping(value="users/update", method = {RequestMethod.PUT, RequestMethod.GET})
 	public String update(User user) {
 		userService.save(user);
@@ -53,5 +56,5 @@ public class UserController {
 	public String delete(Integer id) {
 		userService.delete(id);
 		return "redirect:/users";
-	}
+	}*/
 }
