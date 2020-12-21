@@ -5,3 +5,6 @@ insert into user values(4, 'Computer Science', 'Barack Obama',  'The Tech Pro', 
 insert into user values(5, 'US President', 'Donald Trump',  'The Tech Pro', 'Data Science');
 insert into user values(6, 'Data Science', 'Jadon Mills', 'The Tech Pro', 'Data Science');
 insert into user values(7, 'aaa', 'aaa', 'aaa', 'aaa');
+
+
+

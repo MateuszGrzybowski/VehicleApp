@@ -34,12 +34,12 @@ public class Client {
 	private String mobile;
 	private String website;
 	private String email;
-	
+
 	@ManyToOne
 	@JoinColumn(name="countryid", insertable=false, updatable=false)
 	private Country country;
 	private Integer countryid;
-	
+
 	@ManyToOne
 	@JoinColumn(name="stateid", insertable=false, updatable=false)
 	private State state;	
