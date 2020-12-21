@@ -31,7 +31,7 @@ public class Employee extends Person {
 	@JoinColumn(name="jobtitleid", insertable=false, updatable=false)
 	private JobTitle jobTitle;
 	private Integer jobtitleid;
-	
+	/*a*/
 	@DateTimeFormat(pattern = "yyyy-MM-dd")	
 	private Date hireDate;
 }
